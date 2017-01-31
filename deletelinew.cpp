@@ -19,5 +19,5 @@ deleteLineW::~deleteLineW()
 }
 
 void deleteLineW::value() {
-    emit returnValue(this->ui->spinBox->value());
+    emit returnValue(this->ui->spinBox->value() - 1);
 }
